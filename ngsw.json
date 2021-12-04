@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1638627238251,
+  "timestamp": 1638627759545,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -54,8 +54,7 @@
     {
       "name": "api.github.com",
       "patterns": [
-        "https:\\/\\/api\\.github\\.com\\/.*",
-        "!https:\\/\\/api\\.github\\.com\\/rate_limit"
+        "https:\\/\\/api\\.github\\.com\\/repos\\/.*"
       ],
       "strategy": "performance",
       "maxSize": 300,
